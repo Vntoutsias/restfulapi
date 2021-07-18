@@ -1,0 +1,15 @@
+sqlite3 students.sqlite
+create table students ( fname text, lname text, student_id integer, admission_year integer);
+insert into students values( 'Jack' , 'Rabbit', 789 , 2020);
+.save
+.exit
+
+db.prepare  -> begin
+db.finalize -> commit
+
+git add .
+
+git push
+
+git clone
+git pull
